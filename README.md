@@ -33,7 +33,7 @@ The comparison was conducted considering execution time and memory usage in diff
 ## Contents
 
 1. **main.py**: Main script for executing and analyzing sorting algorithms.
-2. **plot.py**: Script for generating graphs from the obtained results.
+2. **plot_time.py** and **plot_memory.py**: Script for generating graphs from the obtained results.
 3. **sorting_algorithms.py**: Implementations of the sorting algorithms.
 4. **result_final.csv**: CSV file containing the performance test results of the algorithms.
 5. **ent.txt**: Input file (explanation of the content needed).
