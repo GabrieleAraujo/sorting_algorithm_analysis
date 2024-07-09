@@ -7,14 +7,64 @@
 
 <h1 align="center">
   <br>
-   Sorting Algorithms Analisys
+   Sorting Algorithm Analysis
   <br>
 </h1>
 
 <h4 align="center">O objetivo deste projeto é comparar o desempenho de três algoritmos de ordenação: Merge Sort, Quick Sort e Tim Sort. A comparação foi realizada considerando o tempo de execução e o uso de memória em diferentes cenários: melhor caso, pior caso e caso médio. </h4>
 
 <p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#conteúdo">Contents</a> •
-  <a href="#autores">Author</a>
+  <a href="#contents">Contents</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#author">Author</a>
 </p>
+
+## Contents
+
+1. **main.py**: Main script for executing and analyzing sorting algorithms.
+2. **plot.py**: Script for generating graphs from the obtained results.
+3. **sorting_algorithms.py**: Implementations of the sorting algorithms.
+4. **result_final.csv**: CSV file containing the performance test results of the algorithms.
+5. **ent.txt**: Input file (explanation of the content needed).
+
+- Python 3.11v was used. The following libraries/modules were imported:
+
+``` python
+import csv
+import sys
+import numpy as np
+import pandas as pd
+import random
+import tracemalloc
+import timeit
+import matplotlib.pyplot as plt
+from datetime import datetime
+```
+
+
+## Usage
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/GabrieleAraujo/sorting_algorithm_analysis.git
+    cd sorting_algorithm_analysis
+    ```
+
+2. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Run the main script to perform the performance tests:
+    ```sh
+    python main.py
+    ```
+
+4. Generate graphs from the results:
+    ```sh
+    python plot.py
+    ```
+
+## Author
+
+Gabriele S. Araújo
