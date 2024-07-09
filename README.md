@@ -25,8 +25,8 @@ The comparison was conducted considering execution time and memory usage in diff
 | **Name**     | **Best**        | **Average**      | **Worst**        | **Memory**   | **Stable** | **Method**             |
 |--------------|-----------------|------------------|------------------|--------------|------------|------------------------|
 | Merge Sort   | O(n log n) | O(n log n)  | O(n log n)  | O(n)    | Yes        | Merging                |
-| Quick Sort   | (O(n log n) | O(n log n)  | O(n^2)       | O(log n)| No         | Partitioning           |
-| Tim Sort     | (O(n)        | O(n log n)  | O(n log n)  | O(n)     | Yes        | Insertion & Merging    |
+| Quick Sort   | O(n log n) | O(n log n)  | O(n<sup>2</sup>)       | O(log n)| No         | Partitioning           |
+| Tim Sort     | O(n)        | O(n log n)  | O(n log n)  | O(n)     | Yes        | Insertion & Merging    |
 
 *Adapted from [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm)*
 
