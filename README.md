@@ -14,12 +14,13 @@
 <h4 align="center">The objective of this project is to compare the performance of three sorting algorithms: Mergesort, Quicksort, and Timsort.</h4>
 
 <p align="center">
+  <a href="#algorithms">Algorithms</a> •
   <a href="#contents">Contents</a> •
   <a href="#usage">Usage</a> •
   <a href="#author">Author</a>
 </p>
 
-## Algorithms Comparison
+## Algorithms
 The comparison was conducted considering execution time and memory usage in different scenarios: best case, worst case, and average case.
 
 | **Name**     | **Best**        | **Average**      | **Worst**        | **Memory**   | **Stable** | **Method**             |
