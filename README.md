@@ -73,9 +73,9 @@ from datetime import datetime
 
 4. Generate graphs from the results:
     ```sh
-    python plot.py
+    python plot_time.py
     ```
 
 ## Author
 
-Gabriele S. Araújo
+[Gabriele S. Araújo](https://github.com/GabrieleAraujo)
