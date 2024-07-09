@@ -11,13 +11,24 @@
   <br>
 </h1>
 
-<h4 align="center">O objetivo deste projeto é comparar o desempenho de três algoritmos de ordenação: Merge Sort, Quick Sort e Tim Sort. A comparação foi realizada considerando o tempo de execução e o uso de memória em diferentes cenários: melhor caso, pior caso e caso médio. </h4>
+<h4 align="center">The objective of this project is to compare the performance of three sorting algorithms: Mergesort, Quicksort, and Timsort.</h4>
 
 <p align="center">
   <a href="#contents">Contents</a> •
   <a href="#usage">Usage</a> •
   <a href="#author">Author</a>
 </p>
+
+## Algorithms Comparison
+The comparison was conducted considering execution time and memory usage in different scenarios: best case, worst case, and average case.
+
+| **Name**     | **Best**        | **Average**      | **Worst**        | **Memory**   | **Stable** | **Method**             |
+|--------------|-----------------|------------------|------------------|--------------|------------|------------------------|
+| Merge Sort   | O(n log n) | O(n log n)  | O(n log n)  | O(n)    | Yes        | Merging                |
+| Quick Sort   | (O(n log n) | O(n log n)  | O(n^2)       | O(log n)| No         | Partitioning           |
+| Tim Sort     | (O(n)        | O(n log n)  | O(n log n)  | O(n)     | Yes        | Insertion & Merging    |
+
+*Adapted from [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm)*
 
 ## Contents
 
